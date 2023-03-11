@@ -18,7 +18,7 @@ rootProject.allprojects {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://repository.mulesoft.org' }
+        maven { url 'https://repository.mulesoft.org/nexus/content/repositories/public/' }
     }
 }
 
